@@ -72,5 +72,11 @@ h5 {
     border: 7px solid lightgrey;
 }
 
-
+@media (min-width: 768px){
+    .circle-bar-even {
+        display: flex;
+        justify-content: space-evenly;
+        justify-content: end;
+    }
+}
 
