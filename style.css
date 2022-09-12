@@ -68,5 +68,9 @@ h5 {
     margin: 50px 0;
 }
 
+.card-img-top {
+    border: 7px solid lightgrey;
+}
+
 
 
