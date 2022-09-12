@@ -5,5 +5,47 @@ h1, h3 {
     /*text needs to wrap, maybe*/
 }
 
+h1 {
 
+}
+
+body {
+    background-color: #E6E6E6;
+}
+
+.dot1 {
+    height: 100px;
+    width: 100px;
+    background-color: #E6563B;
+    border-radius: 50%;
+    display: inline-block;
+    border: #F0F0F0 solid 10px;
+}
+
+.dot2 {
+    height: 100px;
+    width: 100px;
+    background-color: #EB9D3A;
+    border-radius: 50%;
+    display: inline-block;
+    border: #F0F0F0 solid 10px;
+}
+
+.dot3 {
+    height: 100px;
+    width: 100px;
+    background-color: #7CB06C;
+    border-radius: 50%;
+    display: inline-block;
+    border: #F0F0F0 solid 10px;
+}
+
+.dot4 {
+    height: 100px;
+    width: 100px;
+    background-color: #00ABA9;
+    border-radius: 50%;
+    display: inline-block;
+    border: #F0F0F0 solid 10px;
+}
 
