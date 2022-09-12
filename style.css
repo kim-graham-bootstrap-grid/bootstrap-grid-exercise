@@ -13,6 +13,7 @@ h1 {
 
 body {
     background-color: #E6E6E6;
+    text-transform: uppercase;
 }
 
 .dot1 {
@@ -50,4 +51,22 @@ body {
     display: inline-block;
     border: #F0F0F0 solid 10px;
 }
+
+.circle-bar {
+    display: flex;
+    justify-content: space-evenly;
+    justify-content: end;
+}
+
+.circle-bar-even {
+    display: flex;
+    justify-content: start;
+}
+
+h5 {
+    text-align: center;
+    margin: 50px 0;
+}
+
+
 
