@@ -114,6 +114,11 @@ h5 {
 
 .hidden1 {
     visibility: hidden;
+    padding-left: 25px;
+    padding-right: 50px;
+    text-transform: lowercase;
+    font-size: 28px;
+    padding-bottom: 6px;
 }
 .hr {
     visibility: hidden;
@@ -180,6 +185,10 @@ h5 {
     /*position: absolute;*/
     /*top: 25px;*/
     /*text-align: center;*/
+}
+
+.last-tweet {
+    margin-top: 50px;
 }
 
 
