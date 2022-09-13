@@ -132,6 +132,9 @@ h5 {
 
 .letter-dot {
     margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
 }
 
 .big-dot {
