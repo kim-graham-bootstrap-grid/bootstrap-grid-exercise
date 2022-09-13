@@ -5,10 +5,6 @@ h1, h3 {
     /*text needs to wrap, maybe*/
 }
 
-h1 {
-
-}
-
 h4{
     font-family: 'Anton';
     text-transform: uppercase;
@@ -36,9 +32,10 @@ body {
 .small-dot1 {
     height: 25px;
     width: 25px;
+
     background-color: #E6563B;
     border-radius: 50%;
-    display: inline-block;
+    /*display: inline-block;*/
 }
 
 .dot2 {
@@ -156,10 +153,13 @@ h5 {
 .card-body {
     display: flex;
     justify-content: space-between;
+    align-items: baseline;
 }
 
 .little-circle-bar {
     display: flex;
+    flex-direction: row;
+    align-items: ;
     /*margin-left: 50px;*/
 }
 
@@ -168,6 +168,8 @@ h5 {
     display: flex;
     justify-content: center;
     font-weight: bold;
+    font-size: 1rem;
+    font-family: 'Anton';
 }
 
 .big-dot {
@@ -191,5 +193,8 @@ h5 {
     margin-top: 50px;
 }
 
+.card-text {
+    font-size: .7rem;
+}
 
 
