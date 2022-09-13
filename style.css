@@ -33,6 +33,14 @@ body {
     border: #F0F0F0 solid 10px;
 }
 
+.small-dot1 {
+    height: 25px;
+    width: 25px;
+    background-color: #E6563B;
+    border-radius: 50%;
+    display: inline-block;
+}
+
 .dot2 {
     height: 100px;
     width: 100px;
@@ -40,6 +48,14 @@ body {
     border-radius: 50%;
     display: inline-block;
     border: #F0F0F0 solid 10px;
+}
+
+.small-dot2 {
+    height: 25px;
+    width: 25px;
+    background-color: #EB9D3A;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .dot3 {
@@ -51,6 +67,14 @@ body {
     border: #F0F0F0 solid 10px;
 }
 
+.small-dot3 {
+    height: 25px;
+    width: 25px;
+    background-color: #7CB06C;
+    border-radius: 50%;
+    display: inline-block;
+}
+
 .dot4 {
     height: 100px;
     width: 100px;
@@ -58,6 +82,14 @@ body {
     border-radius: 50%;
     display: inline-block;
     border: #F0F0F0 solid 10px;
+}
+
+.small-dot4 {
+    height: 25px;
+    width: 25px;
+    background-color: #00ABA9;
+    border-radius: 50%;
+    display: inline-block;
 }
 
 .circle-bar {
@@ -87,4 +119,19 @@ h5 {
         justify-content: end;
     }
 }
+
+.card-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.little-circle-bar {
+    display: flex;
+    /*margin-left: 50px;*/
+}
+
+.letter-dot {
+    margin-right: 10px;
+}
+
 
