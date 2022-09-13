@@ -112,11 +112,23 @@ h5 {
     border: 7px solid lightgrey;
 }
 
+.hidden1 {
+    visibility: hidden;
+}
+
 @media (min-width: 768px){
     .circle-bar-even {
         display: flex;
         justify-content: space-evenly;
         justify-content: end;
+    }
+    .hidden1 {
+        visibility: visible;
+    }
+}
+@media (min-width: 770px){
+    .hidden1 {
+        visibility: visible;
     }
 }
 
